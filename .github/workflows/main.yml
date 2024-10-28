@@ -42,4 +42,4 @@ jobs:
         id: production-build
         uses: actions/deploy-pages@v4
         with:
-          github_token: ${{ github.token }}
+          token: ${{ github.token }}
